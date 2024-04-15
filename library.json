@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+    "name": "MbedNanoTLS",
+    "version": "0.1.0",
+    "description": "Standalone Mbed TLS for Arduino Mbed OS Nano Boards",
+    "keywords": [
+        "TLS",
+        "Arduino",
+        "Mbed"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gershnik/MbedNanoTLS"
+    },
+    "authors": {
+        "name": "Eugene Gershnik",
+        "email": "gershnik@hotmail.com",
+        "url": "https://gershnik.github.io/contact/",
+        "maintainer": true
+    },
+    "license": "Apache-2.0",
+    "frameworks": [
+        "arduino-mbed"
+    ],
+    "headers": "MbedNanoTLS.h",
+    "export": {
+        "exclude": [
+            ".github",
+            ".vscode",
+            ".tools",
+            "build"
+        ]
+    },
+    "examples": []
+}
