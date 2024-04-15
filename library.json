@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
     "name": "MbedNanoTLS",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Standalone Mbed TLS for Arduino Mbed OS Nano Boards",
     "keywords": [
         "TLS",
