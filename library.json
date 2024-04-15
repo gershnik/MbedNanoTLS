@@ -20,9 +20,12 @@
     },
     "license": "Apache-2.0",
     "frameworks": [
-        "arduino-mbed"
+        "Arduino"
     ],
-    "headers": "MbedNanoTLS.h",
+    "platforms": [
+        "raspberrypi"
+    ],
+    "headers": "src/MbedNanoTLS.h",
     "export": {
         "exclude": [
             ".github",
