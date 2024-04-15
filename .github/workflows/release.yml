@@ -31,7 +31,7 @@ jobs:
             --exclude-vcs --exclude-vcs-ignores \
             --exclude='.github' \
             --exclude='.tools' \
-            --exclude='build'
+            --exclude='build' \
             .
 
       - name: Make release
