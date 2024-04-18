@@ -18,6 +18,35 @@ Then use Mbed TLS according to its documentation. `MbedNanoTLS.h` includes some 
 #include <mbedtls/header_name.h>
 ```
 
+## Integration
+
+### Arduino IDE
+
+MbedNanoTLS library is available from the **Library Manager**.
+
+Alternatively you can download `MbedNanoTLS-x.y.z.tar.gz` from the desired release of this library on 
+[Releases](https://github.com/gershnik/MbedNanoTLS/releases) page and unpack it into your Arduino libraries folder. 
+
+### PlatformIO
+
+Use either:
+
+```ini
+lib_deps =
+    gershnik/MbedNanoTLS@X.Y.Z
+```
+
+or
+
+```ini
+lib_deps =
+    https://github.com/gershnik/MbedNanoTLS#vX.Y.Z
+```
+
+to your `platformio.ini` file where X.Y.Z is the desired version.
+
+Note that the second form allows you to reference unreleased code at specific branches or commits, if desired.
+
 ## How it is made
 
 You can see the details on how this library is produced from Mbed TLS sources in [`.tools/prepare.py`](.tools/prepare.py) script. If desired, you can also re-create this library using it.
